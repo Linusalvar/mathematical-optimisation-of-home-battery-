@@ -1,5 +1,0 @@
-Important file explanation
-battery_optimisation.py: This contains the mathematical model for the optimisation, open folder in an editor and you can run it there.
-price.txt: A text file containing the data for the price curve illustrating the price change over time.
-resistance_2345678.tx A text file containing the data for the resistance curve illustrating the resistance change over time (cycling through 2, 4 and 8 Ohms)
-rest of files: additional data for illustration and quick calculations.
