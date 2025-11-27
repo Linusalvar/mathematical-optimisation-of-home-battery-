@@ -1,12 +1,11 @@
 # Explanation
-A learning project for a study week of Schweizer Jugend Forscht. Supervised by Francisco Escobar (PSL, ETH).
+A learning project for a study week of Schweizer Jugend Forscht.
 Optimisation of a home battery storage system. Mathematical optimisation of simplified model. Programmed in python with library gurobipy. Constants got determined experimentally.
 
 # Credits
 Nikolas Lamprecht
 Aksel Iberrakene
 Linus Hollnagel
-Francisco Prado Escobar (tutor)
 
 # Important file explanation:
 
