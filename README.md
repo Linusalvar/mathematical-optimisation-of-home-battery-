@@ -8,7 +8,7 @@ Nikolas Lamprecht</br>
 Aksel Iberrakene</br>
 Linus Hollnagel</br>
 
-# Important file explanation:
+# File explanation:
 
 ## battery_optimisation.py: This contains the mathematical model for the optimisation, open folder in an editor and you can run it there.
 - python script utilising numpy and matplotlib
