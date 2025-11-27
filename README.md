@@ -1,10 +1,12 @@
 # Explanation
-A learning project for Schweize Jungen F study week of a battery system simulated in a lab at ETH Zurich
+A learning project for a study week of Schweizer Jugend Forscht. Supervised by Francisco Escobar (PSL, ETH).
+Optimisation of a home battery storage system. Mathematical optimisation of simplified model. Programmed in python with library gurobipy. Constants got determined experimentally.
 
 # Credits
 Nikolas Lamprecht
 Aksel Iberrakene
 Linus Hollnagel
+Francisco Prado Escobar (tutor)
 
 # Important file explanation:
 
@@ -17,7 +19,7 @@ Linus Hollnagel
 ### price.txt: A text file containing the data for the price curve illustrating the price change over time.
 - contains realistic independent data for price from https://www.ekz.ch/de/blue/wissen/2025/dynamische-wahltarife-2026.html
 
-### resistance_2345678.tx A text file containing the data for the resistance curve
+### resistance_2345678.txt A text file containing the data for the resistance curve
 - realistic data from https://www.ekz.ch/de/blue/wissen/2025/dynamische-wahltarife-2026.html
 - illustrating the resistance change over time (cycling through 2, 4 and 8 Ohms)
 
