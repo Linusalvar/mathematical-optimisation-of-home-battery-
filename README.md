@@ -1,6 +1,6 @@
 # Explanation
 Optimisation of a home battery storage system.</br>
-A learning project for "TechXperience" study week of Schweizer Jugend Forscht. Supervised by Francisco Escobar (PSL, ETH)</br>
+A learning project for "TechXperience" study week of Schweizer Jugend Forscht. Supervised by Francisco Escobar (PSL, ETH Zurich)</br>
 Mathematical optimisation of simplified model. Programmed in python with library gurobipy. Constants got determined experimentally.
 
 # Credits
