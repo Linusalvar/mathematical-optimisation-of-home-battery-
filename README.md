@@ -7,7 +7,7 @@ Mathematical optimisation of simplified model. Programmed in python with library
 Nikolas Lamprecht</br>
 Aksel Iberrakene</br>
 Linus Hollnagel</br>
-Francisco Escobar (PSL, ETH)
+Francisco Escobar (PSL, ETH Zurich)
 
 # Important file explanation:
 
