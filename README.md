@@ -1,12 +1,12 @@
 # Explanation
-A learning project for a study week of Schweizer Jugend Forscht.
-Optimisation of a home battery storage system. 
+A learning project for a study week of Schweizer Jugend Forscht.</br>
+Optimisation of a home battery storage system.</br>
 Mathematical optimisation of simplified model. Programmed in python with library gurobipy. Constants got determined experimentally.
 
 # Credits
-Nikolas Lamprecht
-Aksel Iberrakene
-Linus Hollnagel
+Nikolas Lamprecht</br>
+Aksel Iberrakene</br>
+Linus Hollnagel</br>
 
 # Important file explanation:
 
