@@ -59,10 +59,10 @@ for k in range(time_points_count):
     z_solutions.append(int(Z[k].X))
     state_of_charge_solutions.append(float(state_of_charge[k].X))
 
-"""
-if model.status == GRB.OPTIMAL:
-    print("Objective value:", model.ObjVal)
 
+if model.status == GRB.OPTIMAL:
+    print("Objective value(optimal cost in Rappen per Watt):", model.ObjVal/120, "Rp./W")
+"""
     print("\nZ decisions (0 = charge, 1 = discharge):")
     for k in range(time_points_count):
         print(f"t={k}: {z_solutions[k]}")
