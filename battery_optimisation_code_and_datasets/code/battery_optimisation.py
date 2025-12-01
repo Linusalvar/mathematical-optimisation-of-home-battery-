@@ -13,8 +13,8 @@ charging_slope = 0.9310134757692252
 time_points_count = 24
 
 #load .txt files
-load_list_file = np.loadtxt(r"C:\Users\linus\OneDrive\Techxperience_studyweek\battery_simulation\datasets\resistance_2468.txt")
-electric_cost_file = np.loadtxt(r"C:\Users\linus\OneDrive\Techxperience_studyweek\battery_simulation\datasets\price.txt")
+load_list_file = np.loadtxt(r"file_name")
+electric_cost_file = np.loadtxt(r"file_name")
 
 # Get right part of data 
 load_list = load_list_file[:, 1]
@@ -122,3 +122,4 @@ axes[3].legend()
 #plot
 plt.tight_layout()
 plt.show()
+
