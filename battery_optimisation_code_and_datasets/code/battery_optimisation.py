@@ -82,7 +82,7 @@ time_axis = np.arange(time_points_count)
 
 #Price graph
 axes[0].plot(time_axis, electric_cost, "b-", linewidth=2, label="Electricity Price")
-axes[0].set_xlabel("Time (min)")
+axes[0].set_xlabel("Time (h)")
 axes[0].set_ylabel("Price")
 axes[0].set_title("Electricity Price Over Time")
 axes[0].grid(True, alpha=0.3)
@@ -90,7 +90,7 @@ axes[0].legend()
 
 #resistance over time
 axes[1].step(time_axis, load_list, "m-", linewidth=2, marker="", markersize=6, where="post", label="Resistance")
-axes[1].set_xlabel("Time (min)")
+axes[1].set_xlabel("Time (h)")
 axes[1].set_ylabel("Resistance in Ohms(Ω)")
 axes[1].set_title("Resistance over time")
 axes[1].set_ylim(1.5, 8.5)
@@ -101,7 +101,7 @@ axes[1].legend()
 
 #battery on/off graph
 axes[2].step(time_axis, z_solutions, "g-", linewidth=2, marker="", markersize=6, label="Battery Usage (z)", where="post")
-axes[2].set_xlabel("Time (min)")
+axes[2].set_xlabel("Time (h)")
 axes[2].set_ylabel("Battery Usage (1=on, 0=off)")
 axes[2].set_title("Battery Usage Decision Over Time (Binary: 0 or 1)")
 axes[2].set_ylim(-0.1, 1.1)
@@ -113,7 +113,7 @@ axes[2].legend()
 axes[3].plot(range(time_points_count), state_of_charge_solutions, "r-", linewidth=2, marker="", markersize=4, label="State of Charge")
 axes[3].axhline(y=90, color="k", linestyle="--", alpha=0.5, label=f"Max SOC ({90}%)")
 axes[3].axhline(y=85, color="k", linestyle="--", alpha=0.5, label=f"Min SOC ({85}%)")
-axes[3].set_xlabel("Time (min)")
+axes[3].set_xlabel("Time (h)")
 axes[3].set_ylabel("SOC")
 axes[3].set_title("Battery State of Charge Over Time")
 axes[3].grid(True, alpha=0.3)
@@ -122,4 +122,5 @@ axes[3].legend()
 #plot
 plt.tight_layout()
 plt.show()
+
 
